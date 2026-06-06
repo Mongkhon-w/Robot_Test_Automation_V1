@@ -1,0 +1,20 @@
+[
+  {
+    "case_name": "Valid Admin Login",
+    "username": "admin",
+    "password": "admin123",
+    "expected_status": "success"
+  },
+  {
+    "case_name": "Invalid Username",
+    "username": "wronguser",
+    "password": "admin123",
+    "expected_status": "fail"
+  },
+  {
+    "case_name": "Empty Password",
+    "username": "admin",
+    "password": "",
+    "expected_status": "fail"
+  }
+]
